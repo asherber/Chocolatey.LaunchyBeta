@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>launchy-beta</id>
+        <version>2.6.2.1</version>
+        <title>Launchy (beta)</title>
+        <authors>Josh Karlin,Simon Capewell</authors>
+        <owners>Aaron Sherber</owners>
+        <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.txt</licenseUrl>
+        <projectUrl>http://www.launchy.net</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Launchy is a free cross-platform utility designed to help you forget about your start menu, the icons on your desktop, and even your file manager. 
+Launchy indexes the programs in your start menu and can launch your documents, project files, folders, and bookmarks with just a few keystrokes!</description>
+        <summary>Launchy - Open Source Keystroke Launcher</summary>
+        <releaseNotes>Launchy hasn't been updated in a while; for some people the 2.6 beta works better than the 2.5 release (which is available in its own Chocolatey package).</releaseNotes>
+        <tags>launchy productivity launcher beta</tags>
+    </metadata>
+    <files>
+        <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
+        <file src="launchy-beta.2.6.2.1.nupkg" target="launchy-beta.2.6.2.1.nupkg" />
+    </files>
+</package>

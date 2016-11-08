@@ -1,0 +1,1 @@
+﻿Install-ChocolateyPackage 'launchy-beta' 'exe' '/verysilent' 'http://launchy.net/downloads/win/LaunchySetup2.6B2.exe'
